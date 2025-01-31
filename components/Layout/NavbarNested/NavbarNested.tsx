@@ -8,10 +8,10 @@ import {
   IconPresentationAnalytics,
 } from '@tabler/icons-react';
 import { Code, Group, ScrollArea } from '@mantine/core';
+import { UserButton } from '@/components/UserInfo/UserButton/UserButton';
 import { LinksGroup } from '../NavbarLinksGroup/NavbarLinksGroup';
 import { Logo } from './Logo';
 import classes from './NavbarNested.module.css';
-import { UserButton } from '@/components/UserInfo/UserButton/UserButton';
 
 const mockdata = [
   { label: 'Dashboard', icon: IconGauge },
