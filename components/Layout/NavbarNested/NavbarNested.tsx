@@ -9,9 +9,9 @@ import {
 } from '@tabler/icons-react';
 import { Code, Group, ScrollArea } from '@mantine/core';
 import { LinksGroup } from '../NavbarLinksGroup/NavbarLinksGroup';
-import { UserButton } from '../UserButton/UserButton';
 import { Logo } from './Logo';
 import classes from './NavbarNested.module.css';
+import { UserButton } from '@/components/UserInfo/UserButton/UserButton';
 
 const mockdata = [
   { label: 'Dashboard', icon: IconGauge },

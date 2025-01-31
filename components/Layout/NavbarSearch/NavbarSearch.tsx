@@ -10,9 +10,8 @@ import {
   Tooltip,
   UnstyledButton,
 } from '@mantine/core';
-import { UserButton } from '../UserButton/UserButton';
 import classes from './NavbarSearch.module.css';
-
+import { UserButton } from '@/components/UserInfo/UserButton/UserButton';
 const links = [
   { icon: IconBulb, label: 'Activity', notifications: 3 },
   { icon: IconCheckbox, label: 'Tasks', notifications: 4 },
