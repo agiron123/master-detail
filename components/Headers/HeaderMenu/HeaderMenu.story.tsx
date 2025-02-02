@@ -5,5 +5,3 @@ export default {
 };
 
 export const Default = () => <HeaderMenu />;
-
-
